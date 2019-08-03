@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" href="style.css">
+
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="col-3 menu">
+        <form name="formAngka">
+                <input type="text" name="isiText">
+              </form>
+              <table>
+              <tr>
+                  <td><input type="button" value="C" onclick="hapusAll()"></td>
+                  <td colspan="2"><input type="button" value="Bcksp" onclick="bcksp()"></td>
+                  <td><input type="button" value="+" onclick="ins('+')"></td>
+               </tr>
+      
+                <tr>
+                  <td><input type="button" value="1" onclick="ins(1)"> </td>
+                  <td><input type="button" value="2" onclick="ins(2)"> </td>
+                  <td><input type="button" value="3" onclick="ins(3)"> </td>
+                  <td><input type="button" value="-" onclick="ins('-')"> </td>
+      
+                 <tr>
+                    <td><input type="button" value="4" onclick="ins(4)"> </td>
+                    <td><input type="button" value="5" onclick="ins(5)"> </td>
+                    <td><input type="button" value="6" onclick="ins(6)"> </td>
+                    <td><input type="button" value="x" onclick="ins('*')"> </td>
+      
+                 </tr>
+      
+                 <tr>
+                    <td><input type="button" value="7" onclick="ins(7)"> </td>
+                    <td><input type="button" value="8" onclick="ins(8)"> </td>
+                    <td><input type="button" value="9" onclick="ins(9)"> </td>
+                    <td><input type="button" value="/" onclick="ins('/')"> </td>
+                  </tr>
+      
+                  <tr>
+                    <td><input type="button" value="." onclick="ins('.')"> </td>
+                    <td><input type="button" value="0" onclick="ins(0)"> </td>
+                    <td><input type="button" value="=" onclick="samaDengan()"></td>
+                    
+              </table>
+  </div>
+
+ 
+
+
+<script src="main.js">
+</script>
+</body>
+</html>
